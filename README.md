@@ -1,6 +1,6 @@
 
 # NieR Automata Screen Transition
-![Banner](github-images/NierScreenTransitionBanner.png)
+![Banner](github-images/banner.png)
 
 
 NieR Automata Screen Transition in CSS and JS. As far as I know, the only missing piece (together with the game start loading screen) in the many CSS/JS recreations of NieR Automata aesthetics.
@@ -14,8 +14,9 @@ This is a saturday night hobby project by a fool that hasn't dealt in profession
 ![](github-images/NierScreenTransitionPreview.gif)
 [![CodePen](https://img.shields.io/badge/demo-CodePen-black)](https://codepen.io/m-riann-hevein/pen/ZERoPWG) [![LiveDemo](https://img.shields.io/badge/demo-LiveDemoIncoming-black)](#)
 
+## Usage
 
-## Dependencies
+### Dependencies
 This screen transition is mostly based on [AnimeJS](https://github.com/juliangarnier/anime). 
 Of course, nothing bets [metakirby5](https://github.com/metakirby5) amazing [Yorha-CSS](https://github.com/metakirby5/yorha) template for any NieR Automata aesthetics need.
 A parsimonial amount of [jQuery](https://github.com/jquery/jquery) has also been used, but it would be rather easy for anybody to get rid of it if need be.
