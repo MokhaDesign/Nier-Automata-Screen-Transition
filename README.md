@@ -30,7 +30,7 @@ It can be called by adding ```onclick="AnimateLines()"``` to the button or link 
 let idMainContent = 'main'
 let classToHide = '.start'
 ```
-It is fairly easy to change its behaviour and functionality as you please.
+You can have a general idea of the process by looking at ```example.html```. It is fairly easy to change its behaviour and functionality as you please. 
 
 ### Dependencies
 This screen transition is mostly based on [AnimeJS](https://github.com/juliangarnier/anime). 
