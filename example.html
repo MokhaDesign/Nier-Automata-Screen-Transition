@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nier Screen Transition</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/nierscreentransition.css">
+</head>
+
+<body>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Svg Container -->
+<div id="svg-wrapper" class="svg-wrapper">
+    <svg class="lines" viewBox="0 0 100 100" preserveAspectRatio="none" height="100%" width="100%" id="lines-right"></svg>
+    <svg class="lines" viewBox="0 0 100 100" preserveAspectRatio="none" height="100%" width="100%" id="lines-left"></svg>
+    <svg class="triangles" viewBox="0 0 100 100" preserveAspectRatio="none" height="100%" width="100%" id="triangles"></svg>
+</div>
+
+<!-- Content before animation -->
+<div class="start">
+    <button onclick="AnimateLines()" style="z-index: 2">Click To Open</button>
+    <br>
+    <a href="#" onclick="AnimateLines()" style="z-index: 2">Or Click to Open</a>
+</div>
+
+<!-- Content after animation  -->
+<div id="main" class="main">
+    <div><h1>Lorem ipsum</h1>
+        <h2>Code is bad, result is pretty</h2>
+        <p>Vestibulum scelerisque elit in urna ornare convallis. Nulla gravida velit orci, vel fermentum massa sagittis a. Vestibulum ut malesuada velit. Fusce mollis erat eleifend, condimentum ligula sit amet, mollis massa. In hac habitasse platea dictumst. Proin sed facilisis nisl. Sed tincidunt efficitur augue quis faucibus. Aliquam malesuada lorem in mauris dapibus tristique.</p></div>
+</div>
+
+<!-- Scripts -->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/nierscreentransition.js"></script>
+
+</body>
+
+</html>
