@@ -6,7 +6,7 @@
 NieR Automata Screen Transition in CSS and JS. As far as I know, the only missing piece (together with the game start loading screen) in the many CSS/JS recreations of NieR Automata aesthetics.
 
 ### Disclaimer
-This is a saturday night hobby project by a fool that hasn't dealt in professional web development for a year or so. The code is really brutal and unoptimised. Anybody has the right to take this mess as general inspiration and do NieR Automata screen transition justice with a proper job.
+This is a saturday night hobby project by a game developer fool that hasn't dealt in professional web development for a year or so. The code is really brutal and unoptimised. Anybody has the right to take this mess as general inspiration and do NieR Automata screen transition justice with a proper job.
 
 As for my take, as my final objective is to use it in CSS+JS customisation extensions (e.g. [Stylus](https://github.com/openstyles/stylus)) , I'll try iron it out a bit more in order to have it a) self-contained (no HTML set-up required); and b) work with link to external pages rather than in-page elements visibilities.
 
