@@ -381,6 +381,10 @@ svg {
   display: none;
 }
 
+.triangles {
+  pointer-events: none;
+}
+
 .triangles > polygon {
   fill: #dcd8c0;
   stroke: #dcd8c0;
